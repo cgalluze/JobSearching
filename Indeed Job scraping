@@ -1,0 +1,6 @@
+import requests
+import scrapy_beautifulsoup
+
+#website where we plan to scrape the jobs from
+page=requests.get ("https://www.indeed.com/jobs?q=Python%20Developer&l=Pittsburgh%2C%20PA&ts=1539730988440&rs=1&fromage=last#")
+page
